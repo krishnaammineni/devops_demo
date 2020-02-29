@@ -5,8 +5,9 @@
 
 
 resource "google_compute_instance" "nginx" {
-  count = "2"
-  name         = "${var.prefix}-vm-${count.index}"
+  #count = "2"
+  #name         = "${var.prefix}-vm-${count.index}"
+  name         = "automation-vm"
   machine_type = "n1-standard-1"
   zone         = "${var.region}-a"
 
