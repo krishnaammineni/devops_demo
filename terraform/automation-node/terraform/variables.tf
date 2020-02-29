@@ -11,3 +11,11 @@ variable "prefix" {
     default = "nginx"
   
 }
+
+variable "ssh_user" {
+    default = "krishna"
+}
+
+variable "ssh_key" {
+    default = "C:\\Users\\prasammi\\.ssh\\id_rsa.pub"
+}

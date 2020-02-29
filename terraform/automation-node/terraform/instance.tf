@@ -34,6 +34,7 @@ resource "google_compute_instance" "nginx" {
 
   metadata = {
     name = "nginx"
+    ssh-keys = "${var.ssh_user}:${file(var.ssh_key)}"
   }
 
   metadata_startup_script = "echo hi > /test.txt"
