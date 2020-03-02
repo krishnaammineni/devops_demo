@@ -4,14 +4,14 @@
 #}
 
 
-resource "google_compute_instance" "nginx" {
+resource "google_compute_instance" "automation-node" {
   #count = "2"
   #name         = "${var.prefix}-vm-${count.index}"
   name         = "automation-vm"
   machine_type = "n1-standard-1"
-  zone         = "${var.region}-a"
+  zone         = "${var.region}-b"
 
-  tags = ["nginx", "webapp"]
+  tags = ["automation-node", "webapp"]
 
   boot_disk {
     initialize_params {
@@ -33,10 +33,10 @@ resource "google_compute_instance" "nginx" {
   }
 
   metadata = {
-    name = "nginx"
+    name = "automation-node"
+  #  user-data = "${file("${path.module}/cloud-init.yaml")}"
     ssh-keys = "${var.ssh_user}:${file(var.ssh_key)}"
   }
-
   metadata_startup_script = "echo hi > /test.txt"
 
   service_account {

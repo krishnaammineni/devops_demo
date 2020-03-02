@@ -1,21 +1,21 @@
 variable "project"{
-    default = "fresh-ocean-269307"
+    default = "fresh-mason-269307"
 }
 
 variable "region" {
-    default="us-central1"
+    default="asia-south1"
 }
 
 
 variable "prefix" {
-    default = "nginx"
+    default = "automation-node"
   
 }
 
 variable "ssh_user" {
-    default = "krishna"
+    default = "automation"
 }
 
 variable "ssh_key" {
-    default = "C:\\Users\\prasammi\\.ssh\\id_rsa.pub"
+    default = "C:/Users/prasammi/.ssh/id_rsa.pub"
 }
