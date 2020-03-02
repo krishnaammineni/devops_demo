@@ -1,0 +1,7 @@
+#users:
+#- name: automation
+#  ssh-authorized-keys:
+#   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCxNOIGMk/Z+l11X7+B8llG2dS+V89UqXSg61YuCyjZrX/5qtTPPmFnh5Sk/VO2yW0tgcnS9hVd4USH1jNugkQZ8vEdR1yNjnroOnuAhrr3EFymZuIZ6eFm0gtggJL2sjW+Pi54NPYphJ7F/GH+Al2oa6ECrcEhlfXHgnoGyUjMqioGU5aixxWeVF4kjup5qg+841MOOdEPyX9AZKyiVZWK+0DU5jlGlHQiUI3G3I6KTbyUIPt0mcz+ZaA+j2eRlyV/UsufNb+xHs1FVVk//zpJmW7ymq/xKoNzQ/l1ScoeYuEmEEivIUrYA/G7PAUeL4i/43Q7fnLd7UFH2i/Ohp7tWvZhFxynp4xKvcZZwpepvWUynxd05IB1jJlzCnhFTorerkHTBcA5NiTBymMIQ+8syQqCxxiNPCK2xRDQ0taEwue+4mzscR2hD9e1pFsHN8PbqfwKppml5Ix1Pa76fEOMf0fDV52n90jqBtOjUd8vcZ+o6R5uD7GB0O6NX/LYitS0kaROk+pdOzcNW6e6kyDXYkfysZWFU/AMZhUv4Bz1S4pY09clhyly8NtGSlntBhJecAK1+Jh2qfzwKs5CKnRt4AKBBBal9PVWaudVR22tSFrT17QuVSNUKGQ421EClSNljHnjl9ziCF4ewmgam10lsc9cin55MtxQiPat5/B1bQ== krishna.ammineni@gmail.com
+#  sudo: ['ALL=(ALL) NOPASSWD:ALL']
+#  groups: sudo
+#  shell: /bin/bash
